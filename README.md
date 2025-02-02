@@ -11,7 +11,7 @@ If there are no valid odd or even frequency characters, return 0. This ensures t
 
 Solution Approach :
 
-1. Count Character Frequencies
+1. Count Character Frequencies:
 a. Traverse the string and count the occurrences of each character using a dictionary.
 b. This allows efficient frequency tracking for further processing.
 2. Separate Odd and Even Frequencies
