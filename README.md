@@ -32,7 +32,7 @@ Solution Approach :
    1. If either of or ef is empty, return 0 (no valid pair exists).
    2. Otherwise, compute the maximum difference as:
 
-          **Max(Odd Frequency)- Min(Even Frequency)**
+      **Max(Odd Frequency)- Min(Even Frequency)**
 
 This guarantees that we consider the largest possible difference between distinct frequency types.
 
