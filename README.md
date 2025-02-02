@@ -6,6 +6,7 @@ Problem Statement :
 You are given a string s consisting of lowercase English letters. Your task is to find the maximum difference between the frequency of two characters in the string such that:
 1. One of the characters has an even frequency in the string.
 2. The other character has an odd frequency in the string.
+
 The maximum difference is calculated as:
 
 **Max(Odd Frequency)- Min(Even Frequency)**
