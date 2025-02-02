@@ -7,7 +7,9 @@ You are given a string s consisting of lowercase English letters. Your task is t
 1. One of the characters has an even frequency in the string.
 2. The other character has an odd frequency in the string.
 The maximum difference is calculated as:
+
 **Max(Odd Frequency)- Min(Even Frequency)**
+
 If there are no valid odd or even frequency characters, return 0. This ensures that only valid comparisons are made between distinct frequencies.
 
 Solution Approach :
