@@ -15,17 +15,17 @@ Solution Approach :
 
 1. Count Character Frequencies:
 
-a. Traverse the string and count the occurrences of each character using a dictionary.
+1. Traverse the string and count the occurrences of each character using a dictionary.
 
-b. This allows efficient frequency tracking for further processing.
+2. This allows efficient frequency tracking for further processing.
 
 2. Separate Odd and Even Frequencies:
 
 Iterate over the frequency dictionary and classify counts into:
 
-a. Odd frequency list (of****): Stores counts that are odd.
+1. Odd frequency list (of****): Stores counts that are odd.
 
-b. Even frequency list (ef****): Stores counts that are even.
+2. Even frequency list (ef****): Stores counts that are even.
 
 3. Compute Maximum Difference:
 
@@ -40,9 +40,9 @@ Complexity Analysis :
 
 1. Time Complexity: O(N) , where N is the length of the string.
 
-a. Counting character frequencies takes O(N) .
+1. Counting character frequencies takes O(N) .
 
-b. Separating even and odd frequencies takes O(26) =O(1) (since there are at most 26 letters).
+2. Separating even and odd frequencies takes O(26) =O(1) (since there are at most 26 letters).
 
 2. Space Complexity: O(1) (only stores character counts in a dictionary of at most 26 keys).
 3. The algorithm is optimal for large inputs due to its linear time complexity.
@@ -50,17 +50,12 @@ b. Separating even and odd frequencies takes O(26) =O(1) (since there are at mos
 Edge Cases Considered :
 
 
-All characters have even frequencies → Output 0.
-
-All characters have odd frequencies → Output 0.
-
-Mixed frequencies → Compute max difference normally.
-
-Single character string → Output 0.
-
-Large input strings → Efficient handling within O(N) time.
-
-Non-repeating characters → Each character appears once, making the difference minimal.
+1. All characters have even frequencies → Output 0.
+2. All characters have odd frequencies → Output 0.
+3. Mixed frequencies → Compute max difference normally.
+4. Single character string → Output 0.
+5. Large input strings → Efficient handling within O(N) time.
+6. Non-repeating characters → Each character appears once, making the difference minimal.
 
 Summary :
 
