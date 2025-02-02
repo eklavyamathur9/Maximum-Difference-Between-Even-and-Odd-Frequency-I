@@ -1,5 +1,45 @@
 # Maximum-Difference-Between-Even-and-Odd-Frequency-I
 
+Problem Statement
+
+You are given a string s consisting of lowercase English letters. Your task is to find the maximum difference between the frequency of two characters in the string such that:
+
+One of the characters has an even frequency in the string.
+
+The other character has an odd frequency in the string.
+
+The maximum difference is calculated as:
+
+
+
+If there are no valid odd or even frequency characters, return 0. This ensures that only valid comparisons are made between distinct frequencies.
+
+Solution Approach
+
+1. Count Character Frequencies
+
+Traverse the string and count the occurrences of each character using a dictionary.
+
+This allows efficient frequency tracking for further processing.
+
+2. Separate Odd and Even Frequencies
+
+Iterate over the frequency dictionary and classify counts into:
+
+Odd frequency list (of****): Stores counts that are odd.
+
+Even frequency list (ef****): Stores counts that are even.
+
+3. Compute Maximum Difference
+
+If either of or ef is empty, return 0 (no valid pair exists).
+
+Otherwise, compute the maximum difference as:
+
+
+
+This guarantees that we consider the largest possible difference between distinct frequency types.
+
 Problem Statement :
 
 
@@ -15,9 +55,9 @@ Solution Approach :
 
 1. Count Character Frequencies:
 
-1. Traverse the string and count the occurrences of each character using a dictionary.
-
-2. This allows efficient frequency tracking for further processing.
+    1. Traverse the string and count the occurrences of each character using a dictionary.
+  
+    2. This allows efficient frequency tracking for further processing.
 
 2. Separate Odd and Even Frequencies:
 
